@@ -1,0 +1,46 @@
+{
+  "name": "handlebars-dual",
+  "description": "Handlebars helpers to work for both, markdown and html output.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/stefanwalther/handlebars-dual",
+  "author": {
+    "name": "Stefan Walther",
+    "url": "http://qliksite.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stefanwalther/handlebars-dual.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stefanwalther/handlebars-dual/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/stefanwalther/handlebars-dual/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "handlebars": "^3.0.0",
+    "lodash": "^3.5.0",
+    "string": "^3.0.1"
+  },
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "mocha": "^2.2.1",
+    "should": "*"
+  },
+  "keywords": [
+    "handlebars",
+    "markdown",
+    "html"
+  ]
+}
