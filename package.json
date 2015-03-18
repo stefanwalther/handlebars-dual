@@ -26,7 +26,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test"
   },
   "dependencies": {
     "handlebars": "^3.0.0",
