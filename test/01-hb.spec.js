@@ -11,16 +11,23 @@ describe( 'handlebars-dual', function () {
     hbmd.register( Handlebars, {} );
   } );
 
-  it( 'should have a hint helper', function ( done ) {
-    var source = '{{hint "This is a hint"}}';
+  it( 'MD: should have a hint helper', function ( done ) {
+    var source = '{{#hint "Hint"}}\nSome text within the hint{{/hint}}';
     var template = Handlebars.compile( source );
     var content = template();
-    content.should.not.be.empty;
-    content.should.be.eql();
+    content.should.be.eql( '> *Hint*\n> Some text within the hint\n' );
     done();
   } );
 
-  it( 'should have a comment helper', function ( done ) {
+  it( 'MD: {{#hint}} ... multiple lines{{/hint}}', function ( done ) {
+    var source = '{{#hint}}\nFirst line\nSecond line\n{{/hint}}';
+    var template = Handlebars.compile( source );
+    var content = template();
+    content.should.be.eql( '> *Hint:*\n> First line\n> Second line\n' );
+    done();
+  } );
+
+  it( 'MD: should have a comment helper', function ( done ) {
     var source = '{{#comment}}\nThis is comment{{/comment}}';
     var template = Handlebars.compile( source );
     var content = template();
