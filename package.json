@@ -35,8 +35,9 @@
   },
   "devDependencies": {
     "chai": "^2.1.2",
-    "mocha": "^2.2.1",
-    "should": "*"
+    "mocha": "*",
+    "should": "*",
+    "verb": "^0.6.2"
   },
   "keywords": [
     "handlebars",

@@ -2,7 +2,7 @@
 var chai = require( 'chai' );
 var assert = chai.assert;
 var should = chai.should();
-var hbmd = require( './../lib/markdown/basic' );
+var hbmd = require( './../lib/markdown/markdown' );
 var Handlebars = require( 'handlebars' );
 
 describe( 'handlebars-dual', function () {
