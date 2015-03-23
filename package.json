@@ -1,7 +1,7 @@
 {
   "name": "handlebars-dual",
   "description": "Handlebars helpers to work for both, markdown and html output.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/stefanwalther/handlebars-dual",
   "author": {
     "name": "Stefan Walther",
