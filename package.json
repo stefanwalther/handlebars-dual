@@ -1,7 +1,7 @@
 {
   "name": "handlebars-hybrid",
   "description": "Handlebars helpers to work for both, markdown and html output.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "homepage": "https://github.com/stefanwalther/handlebars-hybrid",
   "author": {
     "name": "Stefan Walther",
