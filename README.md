@@ -1,4 +1,4 @@
-# handlebars-hybrid  [![Build Status](https://travis-ci.org/stefanwalther/handlebars-hybrid.svg)](https://travis-ci.org/stefanwalther/handlebars-hybrid) 
+# handlebars-hybrid  [![Build Status](https://travis-ci.org/stefanwalther/handlebars-hybrid.svg)](https://travis-ci.org/stefanwalther/handlebars-hybrid)  [![NPM version](https://badge.fury.io/js/handlebars-hybrid.svg)](http://badge.fury.io/js/handlebars-hybrid)
 
 > Handlebars helpers to work for both, markdown and html output.
 
