@@ -1,17 +1,32 @@
-# handlebars-dual
+# handlebars-hybrid [![NPM version](https://badge.fury.io/js/handlebars-hybrid.svg)](http://badge.fury.io/js/handlebars-hybrid)
 
 > Handlebars helpers to work for both, markdown and html output.
+
+## Purpose
+
+This library solve a common problem for me:
+Writing documentation in (GitHub flavored) markdown with extended markdown syntax, which can then be used in a nice formatted way in Html, but at the same time a GitHub markdown compliant output should be generated.
+
+## Installation
 
 Install with [npm](https://www.npmjs.com/)
 
 ```bash
-npm i handlebars-dual --save
+npm install handlebars-hybrid --save
 ```
 
 ## Usage
 
 ```js
-var handlebarsDual = require('handlebars-dual');
+var Handlebars = require( 'handlebars' );
+var hbHybrid = require('handlebars-hybrid');
+
+// enable the html path
+hbHybrid.init( 'html' ).register( Handlebars, {} );
+
+// or enable the markdown path
+hbHybrid.init( 'markdown' ).register( Handlebars, {} );
+
 ```
 
 ## API
