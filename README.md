@@ -29,15 +29,9 @@ hbHybrid.init( 'markdown' ).register( Handlebars, {} );
 
 ```
 
-## API
-
+<!--## API-->
 <!-- add a path or glob pattern for files with code comments to use for docs  -->
-{%= apidocs("./lib/html/helpers.js") %}
-
-## Related projects
-
-<!-- add an array of related projects, then un-escape the helper -->
-{%= related([]) %}  
+<!--{%= apidocs("./lib/html/helpers.js") %}-->
 
 ## Running tests
 
