@@ -2,21 +2,21 @@
   "name": "handlebars-dual",
   "description": "Handlebars helpers to work for both, markdown and html output.",
   "version": "0.2.1",
-  "homepage": "https://github.com/stefanwalther/handlebars-dual",
+  "homepage": "https://github.com/stefanwalther/handlebars-hybrid",
   "author": {
     "name": "Stefan Walther",
     "url": "http://qliksite.io"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stefanwalther/handlebars-dual.git"
+    "url": "git://github.com/stefanwalther/handlebars-hybrid.git"
   },
   "bugs": {
-    "url": "https://github.com/stefanwalther/handlebars-dual/issues"
+    "url": "https://github.com/stefanwalther/handlebars-hybrid/issues"
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/stefanwalther/handlebars-dual/blob/master/LICENSE"
+    "url": "https://github.com/stefanwalther/handlebars-hybrid/blob/master/LICENSE"
   },
   "files": [
     "index.js"
