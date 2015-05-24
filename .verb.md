@@ -4,7 +4,7 @@
 
 ## Purpose
 
-This library solve a common problem for me:
+This library solves a common problem for me:  
 Writing documentation in (GitHub flavored) markdown with extended markdown syntax, which can then be used in a nice formatted way in Html, but at the same time a GitHub markdown compliant output should be generated.
 
 ## Installation
