@@ -29,15 +29,16 @@
     "test": "mocha test"
   },
   "dependencies": {
-    "handlebars": "^3.0.0",
-    "lodash": "^3.5.0",
-    "string": "^3.0.1"
+    "handlebars": "^3.0.3",
+    "lodash": "^3.9.3",
+    "string": "^3.1.1"
   },
   "devDependencies": {
     "chai": "^2.1.2",
     "mocha": "*",
     "should": "*",
-    "verb": "^0.6.2"
+    "verb": "^0.6.2",
+    "verb-cli": "^0.7.0"
   },
   "keywords": [
     "handlebars",

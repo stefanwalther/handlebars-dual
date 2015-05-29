@@ -6,8 +6,9 @@ var Handlebars = require( 'handlebars' );
 
 describe( 'HTML', function () {
 
-	before( function () {
-		hybrid.init( 'html' ).register( Handlebars, {} );
+	before( function ( done ) {
+		hybrid( 'html' ).register( Handlebars, {} );
+		done();
 	} );
 
 	it( 'should have a comment helper', function ( done ) {

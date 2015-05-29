@@ -6,8 +6,9 @@ var Handlebars = require( 'handlebars' );
 
 describe( 'Markdown', function () {
 
-	before( function () {
-		hybrid.init( 'markdown' ).register( Handlebars, {} );
+	before( function ( done ) {
+		hybrid( 'markdown' ).register( Handlebars, {} );
+		done();
 	} );
 
 	it( 'hint: should have a hint helper', function ( done ) {
@@ -46,7 +47,7 @@ describe( 'Markdown', function () {
 		var source = '{{image "images/image1.png"}}';
 		var template = Handlebars.compile( source );
 		var content = template();
-		content.should.eql( '![](images/image1.png)' );
+		content.should.eql( '![](images/image1.png)  ' );
 		done();
 	} );
 
