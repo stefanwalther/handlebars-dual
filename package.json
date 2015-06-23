@@ -1,0 +1,48 @@
+{
+  "name": "helper-hybrid",
+  "description": "Handlebars helpers to work for both, markdown and html output.",
+  "version": "0.2.2",
+  "homepage": "https://github.com/stefanwalther/helper-hybrid",
+  "author": {
+    "name": "Stefan Walther",
+    "url": "http://qliksite.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stefanwalther/helper-hybrid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stefanwalther/helper-hybrid/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/stefanwalther/helper-hybrid/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "handlebars": "^3.0.3",
+    "lodash": "^3.9.3",
+    "string": "^3.1.1"
+  },
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "mocha": "*",
+    "should": "*",
+    "verb": "verbose/verb"
+  },
+  "keywords": [
+    "handlebars",
+    "markdown",
+    "html",
+    "hybrid"
+  ]
+}
