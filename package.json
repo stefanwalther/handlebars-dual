@@ -29,12 +29,12 @@
     "test": "mocha test"
   },
   "dependencies": {
-    "handlebars": "^3.0.3",
-    "lodash": "^3.9.3",
+    "handlebars": "^4.0.8",
+    "lodash": "^4.17.4",
     "string": "^3.1.1"
   },
   "devDependencies": {
-    "chai": "^2.1.2",
+    "chai": "^3.5.0",
     "mocha": "*",
     "should": "*",
     "verb": "verbose/verb"
