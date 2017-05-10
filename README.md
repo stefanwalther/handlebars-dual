@@ -1,5 +1,7 @@
 # helper-hybrid  [![Build Status](https://travis-ci.org/stefanwalther/helper-hybrid.svg)](https://travis-ci.org/stefanwalther/helper-hybrid)  [![NPM version](https://badge.fury.io/js/helper-hybrid.svg)](http://badge.fury.io/js/helper-hybrid)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stefanwalther/helper-hybrid.svg)](https://greenkeeper.io/)
+
 > Handlebars helpers to work for both, markdown and html output.
 
 ## Purpose
