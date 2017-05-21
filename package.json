@@ -29,7 +29,7 @@
     "test": "mocha test"
   },
   "dependencies": {
-    "handlebars": "^4.0.8",
+    "handlebars": "^4.0.9",
     "lodash": "^4.17.4",
     "string": "^3.1.1"
   },
